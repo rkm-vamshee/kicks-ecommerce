@@ -1,0 +1,23 @@
+{
+  "name": "kicks",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Kicks - MERN TypeScript e-commerce app",
+  "packageManager": "pnpm@11.20.0",
+  "scripts": {
+    "dev:server": "pnpm --filter server dev",
+    "dev:client": "pnpm --filter client dev",
+    "build:server": "pnpm --filter server build",
+    "build:client": "pnpm --filter client build",
+    "build:shared": "pnpm --filter shared build",
+    "lint": "pnpm --filter server lint && pnpm --filter client lint && pnpm --filter shared lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6"
+  }
+}
