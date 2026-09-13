@@ -37,3 +37,6 @@ client/.vite/
 # Coverage
 coverage/
 _notes
+
+# Feature plans
+plans/
