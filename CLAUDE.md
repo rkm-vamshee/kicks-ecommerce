@@ -98,6 +98,16 @@ storefronts — product-first, whitespace-heavy layouts.
 - Files: kebab-case (`product-card.tsx`, `order-service.ts`).
 - Components and types: PascalCase (`ProductCard`, `OrderSummary`).
 
+## Live Docs (Context7)
+
+Before writing code that uses Express, Mongoose, React, Razorpay, or any
+other external library/framework/API, pull current documentation through
+Context7 first — do not rely on training data for API signatures,
+configuration options, or version-specific behavior, since training data can
+be stale or wrong for the version actually in use. If Context7 has no entry
+for a library, say so explicitly before proceeding rather than silently
+falling back to memorized knowledge.
+
 ## Environment
 
 Server env vars (`server/.env.example`): `PORT`, `NODE_ENV`, `MONGO_URI`,
